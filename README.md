@@ -21,6 +21,14 @@ data_chol <- read.table('https://raw.githubusercontent.com/wbabik/Practical_comp
 
 head(data_chol)
 
+```
+data_chol <- read.table('https://raw.githubusercontent.com/wbabik/Practical_computing/teaching/Class_10/data/Cholesterol_Age_R.csv',
+                        sep = ';', header = T,
+                        stringsAsFactors = T)
+
+head(data_chol)
+```
+
 summ <- tibble(Age = levels(data_chol$AgeGroup),
                mean = by(data_chol$After8weeks, data_chol$AgeGroup, mean, na.rm = T),
                se = by(data_chol$After8weeks, data_chol$AgeGroup,
