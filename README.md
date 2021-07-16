@@ -1,6 +1,9 @@
 # Practical-Computing
 just trials
 
+
+próby 2 
+
 **You can call out code or a command within a sentence with single backticks. The text within the backticks will not be formatted**
 __You can call out code or a command within a sentence with single backticks. The text within the backticks will not be formatted__
 You can call out code or a command within a sentence with single backticks. The text within the backticks will not be formatted
